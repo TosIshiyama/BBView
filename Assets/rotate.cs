@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class rotate : MonoBehaviour
 {
+
+    // ボールを回転させる
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +20,7 @@ public class rotate : MonoBehaviour
         Transform BallTransform = GetComponent<Transform>();
 
         Vector3 pos = BallTransform.position;
-        if(pos.z > 3f)
+        if(pos.z > 3f)  // 視点ぎりぎりまできたら回転を停止
         {
             //Debug.Log(pos.z);  // ログを出力
 

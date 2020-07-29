@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+// ミットをオブジェクトとして表示して隠そうとしていたもの（未使用）
+
 public class MItOnOff : MonoBehaviour
 {
 

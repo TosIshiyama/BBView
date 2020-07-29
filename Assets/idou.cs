@@ -4,11 +4,7 @@ using UnityEngine;
 
 public class idou : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    // Transform.position を使った移動の例（未使用）
 
     // Update is called once per frame
     void Update()
